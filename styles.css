@@ -1,0 +1,58 @@
+body {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #abe3f1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #abe3f1;
+
+  }
+
+  nav a:hover {color: #abacf1;}
+  
+  section {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #abe3f1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .projeto {
+    margin-bottom: 2rem;
+  }
+  
+  .projeto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Adicione mais estilos conforme necessário para personalizar seu site */
+  
