@@ -1,0 +1,82 @@
+body {
+    background-image: url(img/cyberpunk-city.jpg);
+    backdrop-filter: blur(6px);
+    background-size: 120%;
+    font-family: 'Share Tech Mono', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FCEE09;
+    color: #050A0E;
+    text-align: center;
+    padding: 1%;
+  }
+
+  header h1 {
+    font-size: 30PX;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #050A0E;
+  }
+
+  nav a:hover {color: #FF003C;}
+  
+  section {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #FCEE09;
+    color: #050A0E;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  
+  .projeto {
+    margin-bottom: 2rem;
+  }
+  
+  .projeto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .social img {
+    max-width: 90px;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 5px;
+  }
+
+  .social {
+    width: 200px;
+    background-color: #5800156c;
+    background-size: 100%;
+    border-radius: 10%;
+  }
+
+  .linkedin {
+    width: 65px;
+    margin-bottom: 10px;
+  }
+  
+  
