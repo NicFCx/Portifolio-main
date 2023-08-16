@@ -6,6 +6,16 @@ body {
     padding: 0;
     font-family: 'Tektur', cursive;
     overflow-x:hidden;
+    cursor: url(img/cursor.cur), default;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a100a7;
 }
 
 header {
@@ -33,6 +43,7 @@ nav a {
     padding: 14px 16px;
     font-size: 17px;
     text-decoration: none;
+    cursor: url(img/pointer.cur), pointer;
 }
 
 nav a:hover {
@@ -41,57 +52,60 @@ nav a:hover {
 
 .Sobre {
     padding: 10px;
-    backdrop-filter: blur(10px);
+    background-color: #600163a1;
     width: 1000px;
     margin-top: 10%;
     margin-left: 15px;
 }
 
 .Sobre h2 {
-    color: #00F0FF;
+    color: #fcffff;
     text-align: center;
     font-size: 5px;
 }
 
 .Sobre p {
     padding: 10px;
-    color: #00F0FF;
+    color: #ffffff;
     text-align: center;
 
 }
 
 .Sobre a {
-    color: #f02151;
+    color: #ff003c;
     text-decoration: none;
+    cursor: url(img/pointer.cur), pointer;
 }
 
-.Sobre img {
-    width: 150px;
-    margin-top: -30px;
+.nico {
+    width: 300px;
+    margin-left: 70%;
+    margin-top: -20%;
 }
 
 
 .Conhecimentos {
     padding: 10px;
-    background-color: #000000;
+    background-color: #600163a1;
     width: 900px;
-    margin-top: 10%;
-    margin-left: 44%;
+    margin-top: 15%;
+    margin-left: 25%;
 }
 
 .Conhecimentos h2 {
-    color: #00F0FF;
+    color: #ffffff;
     text-align: center;
     font-size: 5px;
 }
 
 .Conhecimentos p {
-    color: #00F0FF;
+    color: #ffffff;
 }
 
 .Conhecimentos a {
     text-decoration: none;
-    color: #f02151;
+    color: #ff003c;
+    cursor: url(img/pointer.cur), pointer;
 }
 
 .Conhecimentosimg {
@@ -104,23 +118,56 @@ nav a:hover {
     margin-left: 350px;
 }
 
+.programador {
+    margin-left: -56%;
+    margin-top: -35%;
+    width: 255px;
+}
+
+.programador-cubo {
+    margin-left: 40%;
+}
+
 .Contato {
     padding: 10px;
-    background-color: #000000;
+    background-color: #600163a1;
     width: 700px;
     margin-top: 10%;
     margin-left: 28%;
+    text-align: center;
 }
 
 .Contato h2 {
-    color: #00F0FF;
+    color: #ffffff;
     text-align: center;
     font-size: 5px;
 }
 
-.redesocial {
-    width: 60px;
+.Contato p {
+    color: #fff;
 }
+
+.insta {
+    width: 80px;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 4%;
+}
+
+.linkedin {
+    width: 60px;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 6px;
+}
+
+.github {
+    width: 60px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+
 
 footer {
     margin-top: 39%;
